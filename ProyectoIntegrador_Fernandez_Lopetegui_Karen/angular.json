@@ -116,5 +116,8 @@
       }
     }
   },
-  "defaultProject": "ProyectoIntegrador_Fernandez_Lopetegui_Karen"
+  "defaultProject": "ProyectoIntegrador_Fernandez_Lopetegui_Karen",
+  "cli": {
+    "analytics": false
+  }
 }
