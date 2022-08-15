@@ -28,10 +28,14 @@
             ],
             "styles": [
               "src/styles.css",
-              "ProyectoIntegrador_Fernandez_Lopetegui_Karen/node_modules/bootstrap/dist/css/bootstrap.css"
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-              "ProyectoIntegrador_Fernandez_Lopetegui_Karen/node_modules/bootstrap/dist/js/bootstrap.js"
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -97,9 +101,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "ProyectoIntegrador_Fernandez_Lopetegui_Karen/node_modules/bootstrap/dist/css/bootstrap.css",
+              "ProyectoIntegrador_Fernandez_Lopetegui_Karen/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "ProyectoIntegrador_Fernandez_Lopetegui_Karen/node_modules/bootstrap/dist/js/bootstrap.js",
+              "ProyectoIntegrador_Fernandez_Lopetegui_Karen/node_modules/jquery/dist/jquery.min.js",
+              "ProyectoIntegrador_Fernandez_Lopetegui_Karen/node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "ProyectoIntegrador_Fernandez_Lopetegui_Karen/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           }
         }
       }
