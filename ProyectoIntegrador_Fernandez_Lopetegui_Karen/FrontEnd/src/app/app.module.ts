@@ -22,6 +22,14 @@ import { NewExperienciaComponent } from './components/experiencia/new-experienci
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 import { EditeducationComponent } from './components/educacion/editeducation.component';
+import { EditSkillComponent } from './components/hys/edit-skill.component';
+import { NewtSkillComponent } from './components/hys/newt-skill.component';
+import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideStorage,getStorage } from '@angular/fire/storage';
+import { EditProyectosComponent } from './components/proyecto/edit-proyectos.component';
+import { NewProyectoComponent } from './components/proyecto/new-proyecto/new-proyecto.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +48,12 @@ import { EditeducationComponent } from './components/educacion/editeducation.com
     NewExperienciaComponent,
     EditExperienciaComponent,
     NeweducacionComponent,
-    EditeducationComponent
+    EditeducationComponent,
+    EditSkillComponent,
+    NewtSkillComponent,
+    EditAcercaDeComponent,
+    EditProyectosComponent,
+    NewProyectoComponent
   ],
   imports: [
     BrowserModule,
@@ -57,7 +70,9 @@ import { EditeducationComponent } from './components/educacion/editeducation.com
       animationDuration: 300,
 
 
-    })
+    }),
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage())
 
 
 

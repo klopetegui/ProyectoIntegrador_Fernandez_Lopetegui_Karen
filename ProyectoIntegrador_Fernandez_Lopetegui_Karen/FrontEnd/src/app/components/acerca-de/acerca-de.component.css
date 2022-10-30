@@ -1,19 +1,26 @@
 .row{
     padding: 25px;
+ 
 }
 div{
-    background-color: #a1b5cb;
+    background:#DFD3BB ;
     text-align: center;
+    
 }
 /*estilo de la foto de perfil*/
 @media (min-width:576px){
     #fotop{
         position: absolute;
-        width: 15%;
+        width: 13%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 3%;
-        top:550px;
+        top:auto;
+    }
+    .descripcion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (max-width:576px){
@@ -23,7 +30,7 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 35%;
-        top: 780px;
+        top: auto;
     }
 }
 

@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.component';
 import { EditeducationComponent } from './components/educacion/editeducation.component';
 import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
 import { HomeComponent } from './components/home/home.component';
+import { EditSkillComponent } from './components/hys/edit-skill.component';
+import { NewtSkillComponent } from './components/hys/newt-skill.component';
 import { LoginComponent } from './components/login/login.component';
+import { EditProyectosComponent } from './components/proyecto/edit-proyectos.component';
+import { NewProyectoComponent } from './components/proyecto/new-proyecto/new-proyecto.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
@@ -13,7 +18,12 @@ const routes: Routes = [
   {path:'nuevaexp',component:NewExperienciaComponent},
   {path:'editexp/:id',component:EditExperienciaComponent},
   {path:'nuevaedu',component:NeweducacionComponent},
-  {path:'editedu/:id',component:EditeducationComponent}
+  {path:'editedu/:id',component:EditeducationComponent},
+  {path:'newSkill',component:NewtSkillComponent},
+  {path:'edithys/:id',component:EditSkillComponent},
+  {path:'editacercade/:id',component:EditAcercaDeComponent},
+  {path:'editProyectos/:id',component:EditProyectosComponent},
+  {path:'nuevoProyecto',component:NewProyectoComponent}
 ];
 
 @NgModule({
