@@ -6,7 +6,8 @@ import com.backend.kfl.Entity.Experiencia;
 import com.backend.kfl.Security.Controller.Mensaje;
 import com.backend.kfl.Service.SExperiencia;
 import java.util.List;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/explab")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://frontendkfl.web.app"})
 public class CExperiencia {
     @Autowired
     SExperiencia sExperiencia;

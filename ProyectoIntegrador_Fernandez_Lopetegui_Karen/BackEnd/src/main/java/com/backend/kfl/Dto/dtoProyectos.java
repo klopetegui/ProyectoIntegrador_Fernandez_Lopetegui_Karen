@@ -10,7 +10,7 @@ public class dtoProyectos {
     @NotBlank
     private String descripcion;
     @NotBlank
-    private String img;
+    private String img ;
 
     public dtoProyectos() {
     }

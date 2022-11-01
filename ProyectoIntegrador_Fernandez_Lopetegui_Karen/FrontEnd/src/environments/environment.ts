@@ -14,7 +14,7 @@ export const environment = {
     measurementId: 'G-LNJ2GW5JXN',
   },
   production: false,
-  URL: 'http://localhost:8080/',
+  URL: 'https://backendkfl.herokuapp.com/'
 };
 
 /*

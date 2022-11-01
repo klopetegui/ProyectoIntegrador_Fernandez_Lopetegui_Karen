@@ -9,5 +9,6 @@ export const environment = {
     messagingSenderId: '607151156253',
     measurementId: 'G-LNJ2GW5JXN',
   },
-  production: true
+  production: true,
+  URL :'https://backendkfl.herokuapp.com/'
 };
